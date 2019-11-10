@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="400"
+   viewBox="0 0 800 400"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="wallet.svg"
+   inkscape:export-filename="/home/jgm/overview.png"
+   inkscape:export-xdpi="180"
+   inkscape:export-ydpi="180">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker3088"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3086" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker3042"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3040" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path2629"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path2626"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="325.73718"
+     inkscape:cy="184.1123"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="2556"
+     inkscape:window-height="1346"
+     inkscape:window-x="2"
+     inkscape:window-y="92"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2208"
+       transform="matrix(0.47582855,0,0,0.47582855,12.589085,31.036984)">
+      <text
+         id="text827"
+         y="221.83173"
+         x="149.3828"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.65268993px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.72829312"
+         xml:space="preserve"><tspan
+           style="font-size:31.07384109px;stroke-width:0.72829312"
+           y="221.83173"
+           x="149.3828"
+           id="tspan825"
+           sodipodi:role="line">Store</tspan></text>
+      <g
+         transform="matrix(0.72829312,0,0,0.72829312,-5.3370325,174.65255)"
+         id="g961">
+        <g
+           id="g895"
+           transform="translate(-30)">
+          <rect
+             y="82.731705"
+             x="127.21951"
+             height="145.17076"
+             width="110.43905"
+             id="rect815"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             id="text819"
+             y="111.46341"
+             x="182.3712"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+             xml:space="preserve"><tspan
+               style="font-size:29.33333397px"
+               y="111.46341"
+               x="182.3712"
+               id="tspan817"
+               sodipodi:role="line">Wallet</tspan></text>
+          <g
+             transform="translate(1.9512291,8)"
+             id="g862">
+            <text
+               id="text823"
+               y="131.2552"
+               x="180.57181"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 y="131.2552"
+                 x="180.57181"
+                 id="tspan821"
+                 sodipodi:role="line"
+                 style="font-size:21.33333397px">Account</tspan></text>
+            <rect
+               y="111.99055"
+               x="137.56097"
+               height="23.414639"
+               width="85.853668"
+               id="rect833"
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          </g>
+          <g
+             id="g870"
+             transform="translate(1.9512291,40.780488)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               x="180.57181"
+               y="131.2552"
+               id="text866"><tspan
+                 style="font-size:21.33333397px"
+                 sodipodi:role="line"
+                 id="tspan864"
+                 x="180.57181"
+                 y="131.2552">Account</tspan></text>
+            <rect
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect868"
+               width="85.853668"
+               height="23.414639"
+               x="137.56097"
+               y="111.99055" />
+          </g>
+          <g
+             transform="translate(1.9512291,77.073171)"
+             id="g878">
+            <text
+               id="text874"
+               y="131.2552"
+               x="180.57181"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 y="131.2552"
+                 x="180.57181"
+                 id="tspan872"
+                 sodipodi:role="line"
+                 style="font-size:21.33333397px">Account</tspan></text>
+            <rect
+               y="111.99055"
+               x="137.56097"
+               height="23.414639"
+               width="85.853668"
+               id="rect876"
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          </g>
+        </g>
+        <g
+           transform="translate(90)"
+           id="g927">
+          <rect
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect897"
+             width="110.43905"
+             height="145.17076"
+             x="127.21951"
+             y="82.731705" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+             x="182.3712"
+             y="111.46341"
+             id="text901"><tspan
+               sodipodi:role="line"
+               id="tspan899"
+               x="182.3712"
+               y="111.46341"
+               style="font-size:29.33333397px">Wallet</tspan></text>
+          <g
+             id="g909"
+             transform="translate(1.9512291,8)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               x="180.57181"
+               y="131.2552"
+               id="text905"><tspan
+                 style="font-size:21.33333397px"
+                 sodipodi:role="line"
+                 id="tspan903"
+                 x="180.57181"
+                 y="131.2552">Account</tspan></text>
+            <rect
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect907"
+               width="85.853668"
+               height="23.414639"
+               x="137.56097"
+               y="111.99055" />
+          </g>
+          <g
+             transform="translate(1.9512291,40.780488)"
+             id="g917">
+            <text
+               id="text913"
+               y="131.2552"
+               x="180.57181"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 y="131.2552"
+                 x="180.57181"
+                 id="tspan911"
+                 sodipodi:role="line"
+                 style="font-size:21.33333397px">Account</tspan></text>
+            <rect
+               y="111.99055"
+               x="137.56097"
+               height="23.414639"
+               width="85.853668"
+               id="rect915"
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          </g>
+          <g
+             id="g925"
+             transform="translate(1.9512291,77.073171)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               x="180.57181"
+               y="131.2552"
+               id="text921"><tspan
+                 style="font-size:21.33333397px"
+                 sodipodi:role="line"
+                 id="tspan919"
+                 x="180.57181"
+                 y="131.2552">Account</tspan></text>
+            <rect
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect923"
+               width="85.853668"
+               height="23.414639"
+               x="137.56097"
+               y="111.99055" />
+          </g>
+        </g>
+      </g>
+      <rect
+         y="189.14735"
+         x="48.663235"
+         height="161.43239"
+         width="202.07469"
+         id="rect963"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.72829312;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <ellipse
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2089"
+       cx="400"
+       cy="59.611198"
+       rx="115.25841"
+       ry="57.629204" />
+    <text
+       id="text2170"
+       y="68.389557"
+       x="400.98029"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.65268993px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.72829312"
+       xml:space="preserve"><tspan
+         style="font-size:31.07384109px;stroke-width:0.72829312"
+         y="68.389557"
+         x="400.98029"
+         id="tspan2168"
+         sodipodi:role="line">Application</tspan></text>
+    <g
+       id="g2611"
+       transform="translate(1.4142136,-38.183766)">
+      <g
+         transform="translate(211.57717,186.78679)"
+         id="g2087">
+        <text
+           id="text1825"
+           y="36.519962"
+           x="397.47937"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.47780657px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.46736291"
+           xml:space="preserve"><tspan
+             style="font-size:19.94081879px;stroke-width:0.46736291"
+             y="36.519962"
+             x="397.47937"
+             id="tspan1823"
+             sodipodi:role="line">Store</tspan></text>
+        <g
+           transform="matrix(0.46736292,0,0,0.46736292,256.17111,6.243967)"
+           id="g1857">
+          <rect
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect1827"
+             width="110.43905"
+             height="145.17076"
+             x="127.21951"
+             y="82.731705" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+             x="182.3712"
+             y="111.46341"
+             id="text1831"><tspan
+               sodipodi:role="line"
+               id="tspan1829"
+               x="182.3712"
+               y="111.46341"
+               style="font-size:29.33333397px">Wallet</tspan></text>
+          <g
+             id="g1839"
+             transform="translate(1.9512291,8)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               x="180.57181"
+               y="131.2552"
+               id="text1835"><tspan
+                 style="font-size:21.33333397px"
+                 sodipodi:role="line"
+                 id="tspan1833"
+                 x="180.57181"
+                 y="131.2552">Account</tspan></text>
+            <rect
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect1837"
+               width="85.853668"
+               height="23.414639"
+               x="137.56097"
+               y="111.99055" />
+          </g>
+          <g
+             transform="translate(1.9512291,40.780488)"
+             id="g1847">
+            <text
+               id="text1843"
+               y="131.2552"
+               x="180.57181"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 y="131.2552"
+                 x="180.57181"
+                 id="tspan1841"
+                 sodipodi:role="line"
+                 style="font-size:21.33333397px">Account</tspan></text>
+            <rect
+               y="111.99055"
+               x="137.56097"
+               height="23.414639"
+               width="85.853668"
+               id="rect1845"
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          </g>
+          <g
+             id="g1855"
+             transform="translate(1.9512291,77.073171)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               x="180.57181"
+               y="131.2552"
+               id="text1851"><tspan
+                 style="font-size:21.33333397px"
+                 sodipodi:role="line"
+                 id="tspan1849"
+                 x="180.57181"
+                 y="131.2552">Account</tspan></text>
+            <rect
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect1853"
+               width="85.853668"
+               height="23.414639"
+               x="137.56097"
+               y="111.99055" />
+          </g>
+        </g>
+        <g
+           id="g1889"
+           transform="matrix(0.46736292,0,0,0.46736292,312.25466,6.243967)">
+          <rect
+             y="82.731705"
+             x="127.21951"
+             height="145.17076"
+             width="110.43905"
+             id="rect1859"
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          <text
+             id="text1863"
+             y="111.46341"
+             x="182.3712"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+             xml:space="preserve"><tspan
+               style="font-size:29.33333397px"
+               y="111.46341"
+               x="182.3712"
+               id="tspan1861"
+               sodipodi:role="line">Wallet</tspan></text>
+          <g
+             transform="translate(1.9512291,8)"
+             id="g1871">
+            <text
+               id="text1867"
+               y="131.2552"
+               x="180.57181"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 y="131.2552"
+                 x="180.57181"
+                 id="tspan1865"
+                 sodipodi:role="line"
+                 style="font-size:21.33333397px">Account</tspan></text>
+            <rect
+               y="111.99055"
+               x="137.56097"
+               height="23.414639"
+               width="85.853668"
+               id="rect1869"
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          </g>
+          <g
+             id="g1879"
+             transform="translate(1.9512291,40.780488)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               x="180.57181"
+               y="131.2552"
+               id="text1875"><tspan
+                 style="font-size:21.33333397px"
+                 sodipodi:role="line"
+                 id="tspan1873"
+                 x="180.57181"
+                 y="131.2552">Account</tspan></text>
+            <rect
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect1877"
+               width="85.853668"
+               height="23.414639"
+               x="137.56097"
+               y="111.99055" />
+          </g>
+          <g
+             transform="translate(1.9512291,77.073171)"
+             id="g1887">
+            <text
+               id="text1883"
+               y="131.2552"
+               x="180.57181"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 y="131.2552"
+                 x="180.57181"
+                 id="tspan1881"
+                 sodipodi:role="line"
+                 style="font-size:21.33333397px">Account</tspan></text>
+            <rect
+               y="111.99055"
+               x="137.56097"
+               height="23.414639"
+               width="85.853668"
+               id="rect1885"
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          </g>
+        </g>
+        <rect
+           y="15.54563"
+           x="304.84525"
+           height="103.59498"
+           width="186.22798"
+           id="rect1893"
+           style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.46736291;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+        <g
+           transform="matrix(0.46736292,0,0,0.46736292,368.25466,6.243967)"
+           id="g2034">
+          <rect
+             style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             id="rect2004"
+             width="110.43905"
+             height="145.17076"
+             x="127.21951"
+             y="82.731705" />
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+             x="182.3712"
+             y="111.46341"
+             id="text2008"><tspan
+               sodipodi:role="line"
+               id="tspan2006"
+               x="182.3712"
+               y="111.46341"
+               style="font-size:29.33333397px">Wallet</tspan></text>
+          <g
+             id="g2016"
+             transform="translate(1.9512291,8)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               x="180.57181"
+               y="131.2552"
+               id="text2012"><tspan
+                 style="font-size:21.33333397px"
+                 sodipodi:role="line"
+                 id="tspan2010"
+                 x="180.57181"
+                 y="131.2552">Account</tspan></text>
+            <rect
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect2014"
+               width="85.853668"
+               height="23.414639"
+               x="137.56097"
+               y="111.99055" />
+          </g>
+          <g
+             transform="translate(1.9512291,40.780488)"
+             id="g2024">
+            <text
+               id="text2020"
+               y="131.2552"
+               x="180.57181"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               xml:space="preserve"><tspan
+                 y="131.2552"
+                 x="180.57181"
+                 id="tspan2018"
+                 sodipodi:role="line"
+                 style="font-size:21.33333397px">Account</tspan></text>
+            <rect
+               y="111.99055"
+               x="137.56097"
+               height="23.414639"
+               width="85.853668"
+               id="rect2022"
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+          </g>
+          <g
+             id="g2032"
+             transform="translate(1.9512291,77.073171)">
+            <text
+               xml:space="preserve"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+               x="180.57181"
+               y="131.2552"
+               id="text2028"><tspan
+                 style="font-size:21.33333397px"
+                 sodipodi:role="line"
+                 id="tspan2026"
+                 x="180.57181"
+                 y="131.2552">Account</tspan></text>
+            <rect
+               style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+               id="rect2030"
+               width="85.853668"
+               height="23.414639"
+               x="137.56097"
+               y="111.99055" />
+          </g>
+        </g>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="rect2223"
+         d="m 633.56768,111.14744 a 103.94469,103.94469 0 0 0 -94.97852,61.89063 42.191944,42.191944 0 0 0 -29.23828,-11.83789 42.191944,42.191944 0 0 0 -42.1914,42.19336 42.191944,42.191944 0 0 0 6.86133,23.03711 56.568542,56.568542 0 0 0 -8.62305,-0.73243 56.568542,56.568542 0 0 0 -56.56836,56.56836 56.568542,56.568542 0 0 0 50.54687,56.22852 v 0.33984 h 284.25782 v -0.25781 a 58.689861,58.689861 0 0 0 53.61914,-58.43164 58.689861,58.689861 0 0 0 -58.69141,-58.68945 58.689861,58.689861 0 0 0 -1.36914,0.0488 103.94469,103.94469 0 0 0 0.32031,-6.41406 103.94469,103.94469 0 0 0 -103.94531,-103.94334 z"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <g
+       id="g2246"
+       transform="matrix(0.9218085,0,0,0.9218085,-21.11584,-44.506752)">
+      <ellipse
+         ry="24"
+         rx="117"
+         cy="124.5"
+         cx="146"
+         id="path2234"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         d="M 263,392.5 A 117,24 0 0 1 146.9378,416.49923 117,24 0 0 1 29.015034,392.88473"
+         sodipodi:open="true"
+         sodipodi:end="3.1255617"
+         sodipodi:start="0"
+         sodipodi:ry="24"
+         sodipodi:rx="117"
+         sodipodi:cy="392.5"
+         sodipodi:cx="146"
+         sodipodi:type="arc"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="ellipse2236" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path2238"
+         d="M 28.875,124.5 V 392.125"
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 262.96875,124.5 V 392.125"
+         id="path2240"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g2537"
+       transform="translate(-38.072703,-68.511774)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         x="149.6731"
+         y="309.49393"
+         id="text2250"><tspan
+           sodipodi:role="line"
+           id="tspan2248"
+           x="149.6731"
+           y="309.49393"
+           style="font-size:14.78582096px;stroke-width:0.34654266">Store</tspan></text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2252"
+         width="38.271843"
+         height="50.307861"
+         x="153.05399"
+         y="315.71478" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         x="172.1664"
+         y="325.67154"
+         id="text2256"><tspan
+           sodipodi:role="line"
+           id="tspan2254"
+           x="172.1664"
+           y="325.67154"
+           style="font-size:10.16525173px;stroke-width:0.34654266">Wallet</tspan></text>
+      <text
+         id="text2260"
+         y="335.30258"
+         x="172.21901"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         xml:space="preserve"><tspan
+           y="335.30258"
+           x="172.21901"
+           id="tspan2258"
+           sodipodi:role="line"
+           style="font-size:7.39291048px;stroke-width:0.34654266">Account</tspan></text>
+      <rect
+         y="328.62656"
+         x="144.651"
+         height="8.114171"
+         width="29.751959"
+         id="rect2262"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         x="172.21901"
+         y="346.66241"
+         id="text2268"><tspan
+           style="font-size:7.39291048px;stroke-width:0.34654266"
+           sodipodi:role="line"
+           id="tspan2266"
+           x="172.21901"
+           y="346.66241">Account</tspan></text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2270"
+         width="29.751959"
+         height="8.114171"
+         x="157.31392"
+         y="339.98639" />
+      <text
+         id="text2276"
+         y="359.23938"
+         x="172.21901"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         xml:space="preserve"><tspan
+           y="359.23938"
+           x="172.21901"
+           id="tspan2274"
+           sodipodi:role="line"
+           style="font-size:7.39291048px;stroke-width:0.34654266">Account</tspan></text>
+      <rect
+         y="352.56335"
+         x="157.31392"
+         height="8.114171"
+         width="29.751959"
+         id="rect2278"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         y="315.71478"
+         x="194.63911"
+         height="50.307861"
+         width="38.271843"
+         id="rect2284"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text2288"
+         y="325.67154"
+         x="213.75153"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         xml:space="preserve"><tspan
+           style="font-size:10.16525173px;stroke-width:0.34654266"
+           y="325.67154"
+           x="213.75153"
+           id="tspan2286"
+           sodipodi:role="line">Wallet</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         x="213.80414"
+         y="335.30258"
+         id="text2292"><tspan
+           style="font-size:7.39291048px;stroke-width:0.34654266"
+           sodipodi:role="line"
+           id="tspan2290"
+           x="213.80414"
+           y="335.30258">Account</tspan></text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2294"
+         width="29.751959"
+         height="8.114171"
+         x="198.89905"
+         y="328.62656" />
+      <text
+         id="text2300"
+         y="346.66241"
+         x="213.80414"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         xml:space="preserve"><tspan
+           y="346.66241"
+           x="213.80414"
+           id="tspan2298"
+           sodipodi:role="line"
+           style="font-size:7.39291048px;stroke-width:0.34654266">Account</tspan></text>
+      <rect
+         y="339.98639"
+         x="198.89905"
+         height="8.114171"
+         width="29.751959"
+         id="rect2302"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         x="213.80414"
+         y="359.23938"
+         id="text2308"><tspan
+           style="font-size:7.39291048px;stroke-width:0.34654266"
+           sodipodi:role="line"
+           id="tspan2306"
+           x="213.80414"
+           y="359.23938">Account</tspan></text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2310"
+         width="29.751959"
+         height="8.114171"
+         x="198.89905"
+         y="352.56335" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2318"
+         width="179.41473"
+         height="76.814148"
+         x="61.796329"
+         y="293.94177" />
+      <rect
+         y="315.71478"
+         x="69.053993"
+         height="50.307861"
+         width="38.271843"
+         id="rect2438"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         id="text2442"
+         y="325.67154"
+         x="88.166397"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         xml:space="preserve"><tspan
+           style="font-size:10.16525173px;stroke-width:0.34654266"
+           y="325.67154"
+           x="88.166397"
+           id="tspan2440"
+           sodipodi:role="line">Wallet</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         x="88.219009"
+         y="335.30258"
+         id="text2446"><tspan
+           style="font-size:7.39291048px;stroke-width:0.34654266"
+           sodipodi:role="line"
+           id="tspan2444"
+           x="88.219009"
+           y="335.30258">Account</tspan></text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2448"
+         width="29.751959"
+         height="8.114171"
+         x="73.313919"
+         y="328.62656" />
+      <text
+         id="text2452"
+         y="346.66241"
+         x="88.219009"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         xml:space="preserve"><tspan
+           y="346.66241"
+           x="88.219009"
+           id="tspan2450"
+           sodipodi:role="line"
+           style="font-size:7.39291048px;stroke-width:0.34654266">Account</tspan></text>
+      <rect
+         y="339.98639"
+         x="73.313919"
+         height="8.114171"
+         width="29.751959"
+         id="rect2454"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         x="88.219009"
+         y="359.23938"
+         id="text2458"><tspan
+           style="font-size:7.39291048px;stroke-width:0.34654266"
+           sodipodi:role="line"
+           id="tspan2456"
+           x="88.219009"
+           y="359.23938">Account</tspan></text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2460"
+         width="29.751959"
+         height="8.114171"
+         x="73.313919"
+         y="352.56335" />
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2462"
+         width="38.271843"
+         height="50.307861"
+         x="110.63911"
+         y="315.71478" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         x="129.75153"
+         y="325.67154"
+         id="text2466"><tspan
+           sodipodi:role="line"
+           id="tspan2464"
+           x="129.75153"
+           y="325.67154"
+           style="font-size:10.16525173px;stroke-width:0.34654266">Wallet</tspan></text>
+      <text
+         id="text2470"
+         y="335.30258"
+         x="129.80414"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         xml:space="preserve"><tspan
+           y="335.30258"
+           x="129.80414"
+           id="tspan2468"
+           sodipodi:role="line"
+           style="font-size:7.39291048px;stroke-width:0.34654266">Account</tspan></text>
+      <rect
+         y="328.62656"
+         x="114.89905"
+         height="8.114171"
+         width="29.751959"
+         id="rect2472"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         x="129.80414"
+         y="346.66241"
+         id="text2476"><tspan
+           style="font-size:7.39291048px;stroke-width:0.34654266"
+           sodipodi:role="line"
+           id="tspan2474"
+           x="129.80414"
+           y="346.66241">Account</tspan></text>
+      <rect
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect2478"
+         width="29.751959"
+         height="8.114171"
+         x="114.89905"
+         y="339.98639" />
+      <text
+         id="text2482"
+         y="359.23938"
+         x="129.80414"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.5446825px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.34654266"
+         xml:space="preserve"><tspan
+           y="359.23938"
+           x="129.80414"
+           id="tspan2480"
+           sodipodi:role="line"
+           style="font-size:7.39291048px;stroke-width:0.34654266">Account</tspan></text>
+      <rect
+         y="352.56335"
+         x="114.89905"
+         height="8.114171"
+         width="29.751959"
+         id="rect2484"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.34654266;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.65268993px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.72829312"
+       x="608.1626"
+       y="380.22363"
+       id="text2618"><tspan
+         sodipodi:role="line"
+         id="tspan2616"
+         x="608.1626"
+         y="380.22363"
+         style="font-size:31.07384109px;stroke-width:0.72829312">Remote storage</tspan></text>
+    <text
+       id="text2622"
+       y="380.22363"
+       x="110.1626"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.65268993px;line-height:1.25;font-family:Lato;-inkscape-font-specification:'Lato, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.72829312"
+       xml:space="preserve"><tspan
+         style="font-size:31.07384109px;stroke-width:0.72829312"
+         y="380.22363"
+         x="110.16261"
+         id="tspan2620"
+         sodipodi:role="line">Local storage</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:url(#Arrow1Lend)"
+       d="M 293.44931,34.425796 C 217.78889,15.333913 170.41273,49.982145 170.41273,49.982145"
+       id="path3000"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#marker3042);marker-end:url(#marker3088)"
+       d="M 514.77373,50.689251 C 567.09964,28.061835 634.98189,72.963674 634.98189,72.963674"
+       id="path3032"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
