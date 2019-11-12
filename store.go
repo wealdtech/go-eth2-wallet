@@ -23,6 +23,7 @@ import (
 var store types.Store
 
 func init() {
+	// default store is filesystem
 	store = filesystem.New()
 }
 
