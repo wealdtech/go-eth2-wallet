@@ -142,7 +142,7 @@ func CreateWallet(name string, opts ...Option) (types.Wallet, error) {
 }
 
 type walletInfo struct {
-	ID   uuid.UUID `json:"id"`
+	ID   uuid.UUID `json:"uuid"`
 	Name string    `json:"name"`
 	Type string    `json:"type"`
 }
