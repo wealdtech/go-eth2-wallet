@@ -15,8 +15,10 @@ package wallet
 
 import (
 	"errors"
+	"fmt"
 
 	filesystem "github.com/wealdtech/go-eth2-wallet-store-filesystem"
+	s3 "github.com/wealdtech/go-eth2-wallet-store-s3"
 	types "github.com/wealdtech/go-eth2-wallet-types"
 )
 
@@ -25,6 +27,27 @@ var store types.Store
 func init() {
 	// default store is filesystem
 	store = filesystem.New()
+}
+
+// SetStore sets a store to use given its name and optional passphrase.
+// This does not allow access to all advanced features of stores.  To access these create the stores yourself and set them with
+// `UseStore()`.
+func SetStore(name string, passphrase []byte) error {
+	var store types.Store
+	var err error
+	switch name {
+	case "s3":
+		store, err = s3.New(s3.WithPassphrase(passphrase))
+	case "filesystem":
+		store = filesystem.New(filesystem.WithPassphrase(passphrase))
+	default:
+		err = fmt.Errorf("unknown wallet store %q", name)
+	}
+	if err != nil {
+		return err
+	}
+
+	return UseStore(store)
 }
 
 // UseStore sets a store to use.
