@@ -108,7 +108,9 @@ func OpenWallet(name string, opts ...Option) (types.Wallet, error) {
 		encryptor: encryptor,
 	}
 	for _, o := range opts {
-		o.apply(&options)
+		if opts != nil {
+			o.apply(&options)
+		}
 	}
 
 	data, err := store.RetrieveWallet(name)
@@ -128,7 +130,9 @@ func CreateWallet(name string, opts ...Option) (types.Wallet, error) {
 		walletType: "nd",
 	}
 	for _, o := range opts {
-		o.apply(&options)
+		if o != nil {
+			o.apply(&options)
+		}
 	}
 
 	switch options.walletType {
