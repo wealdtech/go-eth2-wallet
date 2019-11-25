@@ -99,7 +99,7 @@ func main() {
 }
 ```
 
-#### Creating a new wallet the Amazon S3 store
+#### Creating a new wallet on the Amazon S3 store
 
 ```go
 import (
