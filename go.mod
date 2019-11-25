@@ -7,7 +7,7 @@ require (
 	github.com/google/uuid v1.1.1
 	github.com/wealdtech/go-ecodec v1.0.0
 	github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4 v1.0.0
-	github.com/wealdtech/go-eth2-wallet-hd v1.5.0
+	github.com/wealdtech/go-eth2-wallet-hd v1.6.0
 	github.com/wealdtech/go-eth2-wallet-nd v1.5.0
 	github.com/wealdtech/go-eth2-wallet-store-filesystem v1.4.0
 	github.com/wealdtech/go-eth2-wallet-store-s3 v1.3.0
