@@ -113,11 +113,11 @@ func OpenWallet(name string, opts ...Option) (types.Wallet, error) {
 		}
 	}
 
-	data, err := store.RetrieveWallet(name)
+	data, err := options.store.RetrieveWallet(name)
 	if err != nil {
 		return nil, err
 	}
-	return walletFromBytes(data)
+	return walletFromBytes(data, options.store, options.encryptor)
 }
 
 // CreateWallet creates a wallet.
@@ -152,11 +152,21 @@ type walletInfo struct {
 }
 
 // Wallets provides information on the available wallets.
-func Wallets() <-chan types.Wallet {
+func Wallets(opts ...Option) <-chan types.Wallet {
+	options := walletOptions{
+		store:     store,
+		encryptor: encryptor,
+	}
+	for _, o := range opts {
+		if opts != nil {
+			o.apply(&options)
+		}
+	}
+
 	ch := make(chan types.Wallet, 1024)
 	go func() {
 		for data := range store.RetrieveWallets() {
-			wallet, err := walletFromBytes(data)
+			wallet, err := walletFromBytes(data, options.store, options.encryptor)
 			if err == nil {
 				ch <- wallet
 			}
@@ -166,7 +176,7 @@ func Wallets() <-chan types.Wallet {
 	return ch
 }
 
-func walletFromBytes(data []byte) (types.Wallet, error) {
+func walletFromBytes(data []byte, store types.Store, encryptor types.Encryptor) (types.Wallet, error) {
 	info := &walletInfo{}
 	err := json.Unmarshal(data, info)
 	if err != nil {
