@@ -15,6 +15,7 @@ package wallet
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 
 	"github.com/google/uuid"
@@ -112,6 +113,12 @@ func OpenWallet(name string, opts ...Option) (types.Wallet, error) {
 			o.apply(&options)
 		}
 	}
+	if options.store == nil {
+		return nil, errors.New("no store specified")
+	}
+	if options.encryptor == nil {
+		return nil, errors.New("no encryptor specified")
+	}
 
 	data, err := options.store.RetrieveWallet(name)
 	if err != nil {
@@ -134,6 +141,12 @@ func CreateWallet(name string, opts ...Option) (types.Wallet, error) {
 			o.apply(&options)
 		}
 	}
+	if options.store == nil {
+		return nil, errors.New("no store specified")
+	}
+	if options.encryptor == nil {
+		return nil, errors.New("no encryptor specified")
+	}
 
 	switch options.walletType {
 	case "nd", "non-deterministic":
@@ -153,6 +166,8 @@ type walletInfo struct {
 
 // Wallets provides information on the available wallets.
 func Wallets(opts ...Option) <-chan types.Wallet {
+	ch := make(chan types.Wallet, 1024)
+
 	options := walletOptions{
 		store:     store,
 		encryptor: encryptor,
@@ -162,8 +177,13 @@ func Wallets(opts ...Option) <-chan types.Wallet {
 			o.apply(&options)
 		}
 	}
+	if options.store == nil {
+		return ch
+	}
+	if options.encryptor == nil {
+		return ch
+	}
 
-	ch := make(chan types.Wallet, 1024)
 	go func() {
 		for data := range store.RetrieveWallets() {
 			wallet, err := walletFromBytes(data, options.store, options.encryptor)
@@ -177,6 +197,13 @@ func Wallets(opts ...Option) <-chan types.Wallet {
 }
 
 func walletFromBytes(data []byte, store types.Store, encryptor types.Encryptor) (types.Wallet, error) {
+	if store == nil {
+		return nil, errors.New("no store specified")
+	}
+	if encryptor == nil {
+		return nil, errors.New("no encryptor specified")
+	}
+
 	info := &walletInfo{}
 	err := json.Unmarshal(data, info)
 	if err != nil {
