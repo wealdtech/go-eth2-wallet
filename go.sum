@@ -4,6 +4,8 @@ github.com/aws/aws-sdk-go v1.26.2 h1:MzYLmCeny4bMQcAbYcucIduVZKp0sEf1eRLvHpKI5Is
 github.com/aws/aws-sdk-go v1.26.2/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/aws/aws-sdk-go v1.28.0 h1:NkmnHFVEMTRYTleRLm5xUaL1mHKKkYQl4rCd+jzD58c=
 github.com/aws/aws-sdk-go v1.28.0/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
+github.com/aws/aws-sdk-go v1.28.1 h1:aWBD5EJrmGFuHFn9ZdaHqWWZGZYQ5Gzb3j9G0RppLpY=
+github.com/aws/aws-sdk-go v1.28.1/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/campoy/embedmd v1.0.0/go.mod h1:oxyr9RCiSXg0M3VJ3ks0UGfp98BpSSGr0kpiX3MzVl8=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -57,10 +59,14 @@ github.com/wealdtech/go-eth2-wallet-hd v1.8.0 h1:3oYkM6H94vA5y5RUtiBErrZSOxZnwgq
 github.com/wealdtech/go-eth2-wallet-hd v1.8.0/go.mod h1:EgleYFBLF2AFAPkoNiEsVJkfRMjOj76zKtKEx38bjuk=
 github.com/wealdtech/go-eth2-wallet-hd v1.9.0 h1:AtBkFvE4Usrzz+jkLgThfSW5kiXKKbQLK8rHS9OXu5I=
 github.com/wealdtech/go-eth2-wallet-hd v1.9.0/go.mod h1:QGIkXF1AtI9cLByFlnnRXDoK01/SuunRfGLzhWDMnCU=
+github.com/wealdtech/go-eth2-wallet-hd v1.9.1 h1:u53yvtm4cJM3HZS0L9Lt1i3YjbxJ9y4SJvlcsp2nX6o=
+github.com/wealdtech/go-eth2-wallet-hd v1.9.1/go.mod h1:QGIkXF1AtI9cLByFlnnRXDoK01/SuunRfGLzhWDMnCU=
 github.com/wealdtech/go-eth2-wallet-nd v1.6.0 h1:uMX6K/LdJdo56vaR8pIDrwGDX8w+e/MxA88B19Ys/gw=
 github.com/wealdtech/go-eth2-wallet-nd v1.6.0/go.mod h1:oVsPJTBSHnBphYush38VQYCuLwYi/HViqvZByh9vqJ0=
 github.com/wealdtech/go-eth2-wallet-nd v1.7.0 h1:hdQ1XTbz/d1ySY5/kDNQokVP7nM3i6pe/tLgVJqhlxk=
 github.com/wealdtech/go-eth2-wallet-nd v1.7.0/go.mod h1:3vaCTMI2yPndhgjXqM6ynv3yrU0VvqksQ4MaQLCgZIo=
+github.com/wealdtech/go-eth2-wallet-nd v1.7.1 h1:UtOUJaaVDYybYAZInCnKqVbiHEoqLzg6XlVs1qMoNgo=
+github.com/wealdtech/go-eth2-wallet-nd v1.7.1/go.mod h1:3vaCTMI2yPndhgjXqM6ynv3yrU0VvqksQ4MaQLCgZIo=
 github.com/wealdtech/go-eth2-wallet-store-filesystem v1.4.0 h1:IH9ncOXxd10A4C6EAptnycuRcoenRmf60oKq5yirfpc=
 github.com/wealdtech/go-eth2-wallet-store-filesystem v1.4.0/go.mod h1:FCzZpqn1KqU1ezKKjjxh6l9NjmCAiTwZksgE+bnTD68=
 github.com/wealdtech/go-eth2-wallet-store-filesystem v1.5.0 h1:bVOahxWdk0qkZ6xseQBw8fNmCDIbmIM/4KHY+cUSWj8=
