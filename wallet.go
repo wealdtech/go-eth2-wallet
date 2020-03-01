@@ -1,4 +1,4 @@
-// Copyright © 2019 Weald Technology Trading
+// Copyright 2019, 2020 Weald Technology Trading
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -20,15 +20,15 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/wealdtech/go-ecodec"
-	hd "github.com/wealdtech/go-eth2-wallet-hd"
-	nd "github.com/wealdtech/go-eth2-wallet-nd"
-	types "github.com/wealdtech/go-eth2-wallet-types"
+	hd "github.com/wealdtech/go-eth2-wallet-hd/v2"
+	nd "github.com/wealdtech/go-eth2-wallet-nd/v2"
+	wtypes "github.com/wealdtech/go-eth2-wallet-types/v2"
 )
 
 // walletOptions are the optons used when opening and creating wallets.
 type walletOptions struct {
-	store      types.Store
-	encryptor  types.Encryptor
+	store      wtypes.Store
+	encryptor  wtypes.Encryptor
 	walletType string
 	passphrase []byte
 }
@@ -45,14 +45,14 @@ func (f optionFunc) apply(o *walletOptions) {
 }
 
 // WithStore sets the store for the wallet.
-func WithStore(store types.Store) Option {
+func WithStore(store wtypes.Store) Option {
 	return optionFunc(func(o *walletOptions) {
 		o.store = store
 	})
 }
 
 // WithEncryptor sets the encryptor for the wallet.
-func WithEncryptor(encryptor types.Encryptor) Option {
+func WithEncryptor(encryptor wtypes.Encryptor) Option {
 	return optionFunc(func(o *walletOptions) {
 		o.encryptor = encryptor
 	})
@@ -73,7 +73,7 @@ func WithType(walletType string) Option {
 }
 
 // ImportWallet imports a wallet from its encrypted export.
-func ImportWallet(encryptedData []byte, passphrase []byte) (types.Wallet, error) {
+func ImportWallet(encryptedData []byte, passphrase []byte) (wtypes.Wallet, error) {
 	type walletExt struct {
 		Wallet *walletInfo `json:"wallet"`
 	}
@@ -89,7 +89,7 @@ func ImportWallet(encryptedData []byte, passphrase []byte) (types.Wallet, error)
 		return nil, err
 	}
 
-	var wallet types.Wallet
+	var wallet wtypes.Wallet
 	switch ext.Wallet.Type {
 	case "nd", "non-deterministic":
 		wallet, err = nd.Import(encryptedData, passphrase, store, encryptor)
@@ -103,7 +103,7 @@ func ImportWallet(encryptedData []byte, passphrase []byte) (types.Wallet, error)
 
 // OpenWallet opens an existing wallet.
 // If the wallet does not exist an error is returned.
-func OpenWallet(name string, opts ...Option) (types.Wallet, error) {
+func OpenWallet(name string, opts ...Option) (wtypes.Wallet, error) {
 	options := walletOptions{
 		store:     store,
 		encryptor: encryptor,
@@ -129,7 +129,7 @@ func OpenWallet(name string, opts ...Option) (types.Wallet, error) {
 
 // CreateWallet creates a wallet.
 // If the wallet already exists an error is returned.
-func CreateWallet(name string, opts ...Option) (types.Wallet, error) {
+func CreateWallet(name string, opts ...Option) (wtypes.Wallet, error) {
 	options := walletOptions{
 		store:      store,
 		encryptor:  encryptor,
@@ -165,8 +165,8 @@ type walletInfo struct {
 }
 
 // Wallets provides information on the available wallets.
-func Wallets(opts ...Option) <-chan types.Wallet {
-	ch := make(chan types.Wallet, 1024)
+func Wallets(opts ...Option) <-chan wtypes.Wallet {
+	ch := make(chan wtypes.Wallet, 1024)
 
 	options := walletOptions{
 		store:     store,
@@ -196,7 +196,7 @@ func Wallets(opts ...Option) <-chan types.Wallet {
 	return ch
 }
 
-func walletFromBytes(data []byte, store types.Store, encryptor types.Encryptor) (types.Wallet, error) {
+func walletFromBytes(data []byte, store wtypes.Store, encryptor wtypes.Encryptor) (wtypes.Wallet, error) {
 	if store == nil {
 		return nil, errors.New("no store specified")
 	}
@@ -209,7 +209,7 @@ func walletFromBytes(data []byte, store types.Store, encryptor types.Encryptor) 
 	if err != nil {
 		return nil, err
 	}
-	var wallet types.Wallet
+	var wallet wtypes.Wallet
 	switch info.Type {
 	case "nd", "non-deterministic":
 		wallet, err = nd.DeserializeWallet(data, store, encryptor)

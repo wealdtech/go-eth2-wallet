@@ -19,10 +19,10 @@ import (
 
 	filesystem "github.com/wealdtech/go-eth2-wallet-store-filesystem"
 	s3 "github.com/wealdtech/go-eth2-wallet-store-s3"
-	types "github.com/wealdtech/go-eth2-wallet-types"
+	wtypes "github.com/wealdtech/go-eth2-wallet-types/v2"
 )
 
-var store types.Store
+var store wtypes.Store
 
 func init() {
 	// default store is filesystem
@@ -33,7 +33,7 @@ func init() {
 // This does not allow access to all advanced features of stores.  To access these create the stores yourself and set them with
 // `UseStore()`.
 func SetStore(name string, passphrase []byte) error {
-	var store types.Store
+	var store wtypes.Store
 	var err error
 	switch name {
 	case "s3":
@@ -51,7 +51,7 @@ func SetStore(name string, passphrase []byte) error {
 }
 
 // UseStore sets a store to use.
-func UseStore(s types.Store) error {
+func UseStore(s wtypes.Store) error {
 	if s == nil {
 		return errors.New("no store supplied")
 	}
