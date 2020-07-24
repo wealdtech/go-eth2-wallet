@@ -60,6 +60,8 @@ The following wallet types are available:
 
   - [nd](https://github.com/wealdtech/go-eth2-wallet-nd): this is a traditional non-deterministic wallet where private keys are generated randomly and have no relationship to each other.
   - [hd](https://github.com/wealdtech/go-eth2-wallet-hd): this is a hierarchical deterministic wallet where private keys are generated based on a seed phrase and path.
+  - [distributed](https://github.com/wealdtech/go-eth2-wallet-distributed): this is a wallet whose accounts form part of a distributed composite.
+
 
 Please refer to the documentation for each wallet type to understand its functionality and available options.
 

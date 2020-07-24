@@ -34,6 +34,7 @@ type walletOptions struct {
 	encryptor  wtypes.Encryptor
 	walletType string
 	passphrase []byte
+	seed       []byte
 }
 
 // Option gives options to OpenWallet and CreateWallet.
@@ -72,6 +73,13 @@ func WithPassphrase(passphrase []byte) Option {
 func WithType(walletType string) Option {
 	return optionFunc(func(o *walletOptions) {
 		o.walletType = walletType
+	})
+}
+
+// WithSeed sets the seed for a hierarchical deterministic wallet.
+func WithSeed(seed []byte) Option {
+	return optionFunc(func(o *walletOptions) {
+		o.seed = seed
 	})
 }
 
@@ -142,6 +150,7 @@ func CreateWallet(name string, opts ...Option) (wtypes.Wallet, error) {
 		encryptor:  encryptor,
 		passphrase: nil,
 		walletType: "nd",
+		seed:       nil,
 	}
 	for _, o := range opts {
 		if o != nil {
@@ -154,6 +163,9 @@ func CreateWallet(name string, opts ...Option) (wtypes.Wallet, error) {
 	if options.encryptor == nil {
 		return nil, errors.New("no encryptor specified")
 	}
+	if (options.walletType == "hd" || options.walletType == "hierarchical deterministic") && options.seed == nil {
+		return nil, errors.New("no seed specified")
+	}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
@@ -161,7 +173,7 @@ func CreateWallet(name string, opts ...Option) (wtypes.Wallet, error) {
 	case "nd", "non-deterministic":
 		return nd.CreateWallet(ctx, name, options.store, options.encryptor)
 	case "hd", "hierarchical deterministic":
-		return hd.CreateWallet(ctx, name, options.passphrase, options.store, options.encryptor)
+		return hd.CreateWallet(ctx, name, options.passphrase, options.store, options.encryptor, options.seed)
 	case "distributed":
 		return distributed.CreateWallet(ctx, name, options.store, options.encryptor)
 	default:
