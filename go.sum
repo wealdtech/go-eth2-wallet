@@ -97,6 +97,8 @@ github.com/wealdtech/go-eth2-wallet-hd/v2 v2.2.0 h1:L+yrAn8TC9DQUw+S7moOJxQTp2jr
 github.com/wealdtech/go-eth2-wallet-hd/v2 v2.2.0/go.mod h1:lhSwtkIO/Pfg5kz8k50yrDgj7ZQaElCPsXnixlrQn/I=
 github.com/wealdtech/go-eth2-wallet-hd/v2 v2.3.0 h1:UORXUYRoUYgYF96Y+QiBq33OKQVtn/nEjnSoQbe1UOA=
 github.com/wealdtech/go-eth2-wallet-hd/v2 v2.3.0/go.mod h1:Kc/8WcqMTczfH2xy5mDfCRd0NI/ca/j2jXmqJ7gz8yk=
+github.com/wealdtech/go-eth2-wallet-hd/v2 v2.4.0 h1:bqG/i1fpDpnQFgJ+NBLgOLdmGhXiinwlrFVD1OAgZlo=
+github.com/wealdtech/go-eth2-wallet-hd/v2 v2.4.0/go.mod h1:xBbzc+aRD06dTL5phnMshpM4sryyWYM8m86sjQKG5u0=
 github.com/wealdtech/go-eth2-wallet-nd/v2 v2.2.0 h1:h4eePfG0ANOJYMonmIYOvxJ9uLmBEX4APb2O8Vhtv6k=
 github.com/wealdtech/go-eth2-wallet-nd/v2 v2.2.0/go.mod h1:Un2EtseZWSObmTBjgkt7Qz2am54S/0115jrF83lto1U=
 github.com/wealdtech/go-eth2-wallet-nd/v2 v2.3.0 h1:L1aPK9nc+8Ctcw+8I05vM6408weFc4a5RtLQDUeS0eE=
@@ -114,6 +116,8 @@ github.com/wealdtech/go-eth2-wallet-types/v2 v2.5.0 h1:J29mbkSCUMl2xdu8Lg6U+JptF
 github.com/wealdtech/go-eth2-wallet-types/v2 v2.5.0/go.mod h1:X9kYUH/E5YMqFMZ4xL6MJanABUkJGaH/yPZRT2o+yYA=
 github.com/wealdtech/go-eth2-wallet-types/v2 v2.6.0 h1:vBrH5icPPSeb14cdShA7/P2PBZOgZscJ2IhBlTIaFrA=
 github.com/wealdtech/go-eth2-wallet-types/v2 v2.6.0/go.mod h1:X9kYUH/E5YMqFMZ4xL6MJanABUkJGaH/yPZRT2o+yYA=
+github.com/wealdtech/go-eth2-wallet-types/v2 v2.7.0 h1:pquFQdIWEiSYrpIpFuvsRuialI8t9KhFsPvbIBPnzic=
+github.com/wealdtech/go-eth2-wallet-types/v2 v2.7.0/go.mod h1:X9kYUH/E5YMqFMZ4xL6MJanABUkJGaH/yPZRT2o+yYA=
 github.com/wealdtech/go-indexer v1.0.0 h1:/S4rfWQbSOnnYmwnvuTVatDibZ8o1s9bmTCHO16XINg=
 github.com/wealdtech/go-indexer v1.0.0/go.mod h1:u1cjsbsOXsm5jzJDyLmZY7GsrdX8KYXKBXkZcAmk3Zg=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
