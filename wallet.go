@@ -208,7 +208,7 @@ func Wallets(opts ...Option) <-chan wtypes.Wallet {
 	}
 
 	go func() {
-		for data := range store.RetrieveWallets() {
+		for data := range options.store.RetrieveWallets() {
 			wallet, err := walletFromBytes(data, options.store, options.encryptor)
 			if err == nil {
 				ch <- wallet
