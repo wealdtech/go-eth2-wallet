@@ -18,6 +18,7 @@ import (
 	"strings"
 )
 
+//revive:disable-next-line
 // WalletAndAccountNames breaks an account in to wallet and account names.
 func WalletAndAccountNames(account string) (string, string, error) {
 	if len(account) == 0 {
