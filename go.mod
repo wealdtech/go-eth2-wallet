@@ -3,7 +3,6 @@ module github.com/wealdtech/go-eth2-wallet
 go 1.14
 
 require (
-	github.com/aws/aws-sdk-go v1.40.41 // indirect
 	github.com/google/go-cmp v0.5.2 // indirect
 	github.com/google/uuid v1.3.0
 	github.com/stretchr/testify v1.7.0
@@ -15,7 +14,7 @@ require (
 	github.com/wealdtech/go-eth2-wallet-hd/v2 v2.5.5
 	github.com/wealdtech/go-eth2-wallet-nd/v2 v2.3.4
 	github.com/wealdtech/go-eth2-wallet-store-filesystem v1.16.15
-	github.com/wealdtech/go-eth2-wallet-store-s3 v1.9.4
+	github.com/wealdtech/go-eth2-wallet-store-s3 v1.9.5
 	github.com/wealdtech/go-eth2-wallet-store-scratch v1.6.3
 	github.com/wealdtech/go-eth2-wallet-types/v2 v2.8.5
 	gotest.tools v2.2.0+incompatible
