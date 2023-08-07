@@ -1,4 +1,4 @@
-// Copyright © 2020 Weald Technology Trading
+// Copyright © 2020 - 2023 Weald Technology Trading.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -34,10 +34,10 @@ func TestStore(t *testing.T) {
 	// Confirm the store has been set.
 	require.Equal(t, "scratch", wallet.GetStore())
 
-	// Attempt to set different stores.
+	// Attempt to switch stores.
 	require.NoError(t, wallet.SetStore("filesystem", nil))
 	require.Equal(t, "filesystem", wallet.GetStore())
-	require.NoError(t, wallet.SetStore("s3", nil))
-	require.Equal(t, "s3", wallet.GetStore())
+	require.NoError(t, wallet.SetStore("scratch", nil))
+	require.Equal(t, "scratch", wallet.GetStore())
 	require.EqualError(t, wallet.SetStore("unknown", nil), "unknown wallet store \"unknown\"")
 }

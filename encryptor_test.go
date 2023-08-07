@@ -18,6 +18,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 	wallet "github.com/wealdtech/go-eth2-wallet"
+	keystorev4 "github.com/wealdtech/go-eth2-wallet-encryptor-keystorev4"
 	unencrypted "github.com/wealdtech/go-eth2-wallet-encryptor-unencrypted"
 )
 
@@ -33,4 +34,10 @@ func TestEncryptor(t *testing.T) {
 
 	// Confirm the encryptor has been set.
 	require.Equal(t, "unencrypted", wallet.GetEncryptor())
+
+	// Attempt to set a different encryptor.
+	require.NoError(t, wallet.UseEncryptor(keystorev4.New()))
+
+	// Confirm the encryptor has been set.
+	require.Equal(t, "keystore", wallet.GetEncryptor())
 }

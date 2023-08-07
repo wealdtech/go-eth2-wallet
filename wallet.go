@@ -1,4 +1,4 @@
-// Copyright 2019, 2020 Weald Technology Trading
+// Copyright 2019 - 2023 Weald Technology Trading.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -16,16 +16,22 @@ package wallet
 import (
 	"context"
 	"encoding/json"
-	"errors"
 	"fmt"
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/pkg/errors"
 	"github.com/wealdtech/go-ecodec"
 	distributed "github.com/wealdtech/go-eth2-wallet-distributed"
 	hd "github.com/wealdtech/go-eth2-wallet-hd/v2"
 	nd "github.com/wealdtech/go-eth2-wallet-nd/v2"
 	wtypes "github.com/wealdtech/go-eth2-wallet-types/v2"
+)
+
+const (
+	nonDeterministicWallet          = "non-deterministic"
+	hierarchicalDeterministicWallet = "hierarchical deterministic"
+	distributedWallet               = "distributed"
 )
 
 // walletOptions are the optons used when opening and creating wallets.
@@ -91,28 +97,29 @@ func ImportWallet(encryptedData []byte, passphrase []byte) (wtypes.Wallet, error
 
 	data, err := ecodec.Decrypt(encryptedData, passphrase)
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "failed to decrypt wallet")
 	}
 
 	ext := &walletExt{}
 	err = json.Unmarshal(data, ext)
 	if err != nil {
-		return nil, err
+		return nil, errors.Wrap(err, "failed to import wallet")
 	}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
 	var wallet wtypes.Wallet
 	switch ext.Wallet.Type {
-	case "nd", "non-deterministic":
+	case "nd", nonDeterministicWallet:
 		wallet, err = nd.Import(ctx, encryptedData, passphrase, store, encryptor)
-	case "hd", "hierarchical deterministic":
+	case "hd", hierarchicalDeterministicWallet:
 		wallet, err = hd.Import(ctx, encryptedData, passphrase, store, encryptor)
-	case "distributed":
+	case distributedWallet:
 		wallet, err = distributed.Import(ctx, encryptedData, passphrase, store, encryptor)
 	default:
 		return nil, fmt.Errorf("unsupported wallet type %q", ext.Wallet.Type)
 	}
+
 	return wallet, err
 }
 
@@ -139,6 +146,7 @@ func OpenWallet(name string, opts ...Option) (wtypes.Wallet, error) {
 	if err != nil {
 		return nil, err
 	}
+
 	return walletFromBytes(data, options.store, options.encryptor)
 }
 
@@ -157,28 +165,37 @@ func CreateWallet(name string, opts ...Option) (wtypes.Wallet, error) {
 			o.apply(&options)
 		}
 	}
-	if options.store == nil {
-		return nil, errors.New("no store specified")
-	}
-	if options.encryptor == nil {
-		return nil, errors.New("no encryptor specified")
-	}
-	if (options.walletType == "hd" || options.walletType == "hierarchical deterministic") && options.seed == nil {
-		return nil, errors.New("no seed specified")
+
+	if err := checkOptions(&options); err != nil {
+		return nil, err
 	}
 
 	ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
 	defer cancel()
 	switch options.walletType {
-	case "nd", "non-deterministic":
+	case "nd", nonDeterministicWallet:
 		return nd.CreateWallet(ctx, name, options.store, options.encryptor)
-	case "hd", "hierarchical deterministic":
+	case "hd", hierarchicalDeterministicWallet:
 		return hd.CreateWallet(ctx, name, options.passphrase, options.store, options.encryptor, options.seed)
-	case "distributed":
+	case distributedWallet:
 		return distributed.CreateWallet(ctx, name, options.store, options.encryptor)
 	default:
 		return nil, fmt.Errorf("unhandled wallet type %q", options.walletType)
 	}
+}
+
+func checkOptions(options *walletOptions) error {
+	if options.store == nil {
+		return errors.New("no store specified")
+	}
+	if options.encryptor == nil {
+		return errors.New("no encryptor specified")
+	}
+	if (options.walletType == "hd" || options.walletType == hierarchicalDeterministicWallet) && options.seed == nil {
+		return errors.New("no seed specified")
+	}
+
+	return nil
 }
 
 type walletInfo struct {
@@ -216,6 +233,7 @@ func Wallets(opts ...Option) <-chan wtypes.Wallet {
 		}
 		close(ch)
 	}()
+
 	return ch
 }
 
@@ -237,14 +255,15 @@ func walletFromBytes(data []byte, store wtypes.Store, encryptor wtypes.Encryptor
 	defer cancel()
 	var wallet wtypes.Wallet
 	switch info.Type {
-	case "nd", "non-deterministic":
+	case "nd", nonDeterministicWallet:
 		wallet, err = nd.DeserializeWallet(ctx, data, store, encryptor)
-	case "hd", "hierarchical deterministic":
+	case "hd", hierarchicalDeterministicWallet:
 		wallet, err = hd.DeserializeWallet(ctx, data, store, encryptor)
-	case "distributed":
+	case distributedWallet:
 		wallet, err = distributed.DeserializeWallet(ctx, data, store, encryptor)
 	default:
 		return nil, fmt.Errorf("unsupported wallet type %q", info.Type)
 	}
+
 	return wallet, err
 }

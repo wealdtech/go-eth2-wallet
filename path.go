@@ -18,8 +18,9 @@ import (
 	"strings"
 )
 
-//revive:disable-next-line
 // WalletAndAccountNames breaks an account in to wallet and account names.
+//
+//nolint:revive
 func WalletAndAccountNames(account string) (string, string, error) {
 	if len(account) == 0 {
 		return "", "", errors.New("invalid account format")
@@ -36,5 +37,6 @@ func WalletAndAccountNames(account string) (string, string, error) {
 		// Trailing /
 		return account[:index], "", nil
 	}
+
 	return account[:index], account[index+1:], nil
 }

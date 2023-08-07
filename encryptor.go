@@ -32,6 +32,7 @@ func UseEncryptor(e wtypes.Encryptor) error {
 		return errors.New("no encryptor supplied")
 	}
 	encryptor = e
+
 	return nil
 }
 

@@ -1,4 +1,4 @@
-// Copyright © 2019 Weald Technology Trading
+// Copyright © 2019 - 2023 Weald Technology Trading.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -19,13 +19,14 @@ import (
 
 	filesystem "github.com/wealdtech/go-eth2-wallet-store-filesystem"
 	s3 "github.com/wealdtech/go-eth2-wallet-store-s3"
+	scratch "github.com/wealdtech/go-eth2-wallet-store-scratch"
 	wtypes "github.com/wealdtech/go-eth2-wallet-types/v2"
 )
 
 var store wtypes.Store
 
 func init() {
-	// default store is filesystem
+	// Default store is filesystem.
 	store = filesystem.New()
 }
 
@@ -40,6 +41,8 @@ func SetStore(name string, passphrase []byte) error {
 		store, err = s3.New(s3.WithPassphrase(passphrase))
 	case "filesystem":
 		store = filesystem.New(filesystem.WithPassphrase(passphrase))
+	case "scratch":
+		store = scratch.New()
 	default:
 		err = fmt.Errorf("unknown wallet store %q", name)
 	}
@@ -56,6 +59,7 @@ func UseStore(s wtypes.Store) error {
 		return errors.New("no store supplied")
 	}
 	store = s
+
 	return nil
 }
 
