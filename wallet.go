@@ -1,4 +1,4 @@
-// Copyright 2019 - 2023 Weald Technology Trading.
+// Copyright 2019 - 2024 Weald Technology Trading.
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
 // You may obtain a copy of the License at
@@ -24,6 +24,7 @@ import (
 	"github.com/wealdtech/go-ecodec"
 	distributed "github.com/wealdtech/go-eth2-wallet-distributed"
 	hd "github.com/wealdtech/go-eth2-wallet-hd/v2"
+	keystore "github.com/wealdtech/go-eth2-wallet-keystore"
 	nd "github.com/wealdtech/go-eth2-wallet-nd/v2"
 	wtypes "github.com/wealdtech/go-eth2-wallet-types/v2"
 )
@@ -32,6 +33,7 @@ const (
 	nonDeterministicWallet          = "non-deterministic"
 	hierarchicalDeterministicWallet = "hierarchical deterministic"
 	distributedWallet               = "distributed"
+	keystoreWallet                  = "keystore"
 )
 
 // walletOptions are the optons used when opening and creating wallets.
@@ -45,7 +47,7 @@ type walletOptions struct {
 
 // Option gives options to OpenWallet and CreateWallet.
 type Option interface {
-	apply(*walletOptions)
+	apply(opts *walletOptions)
 }
 
 type optionFunc func(*walletOptions)
@@ -116,6 +118,8 @@ func ImportWallet(encryptedData []byte, passphrase []byte) (wtypes.Wallet, error
 		wallet, err = hd.Import(ctx, encryptedData, passphrase, store, encryptor)
 	case distributedWallet:
 		wallet, err = distributed.Import(ctx, encryptedData, passphrase, store, encryptor)
+	case keystoreWallet:
+		wallet, err = keystore.Import(ctx, encryptedData, passphrase, store, encryptor)
 	default:
 		return nil, fmt.Errorf("unsupported wallet type %q", ext.Wallet.Type)
 	}
@@ -179,6 +183,8 @@ func CreateWallet(name string, opts ...Option) (wtypes.Wallet, error) {
 		return hd.CreateWallet(ctx, name, options.passphrase, options.store, options.encryptor, options.seed)
 	case distributedWallet:
 		return distributed.CreateWallet(ctx, name, options.store, options.encryptor)
+	case keystoreWallet:
+		return keystore.CreateWallet(ctx, name, options.store, options.encryptor)
 	default:
 		return nil, fmt.Errorf("unhandled wallet type %q", options.walletType)
 	}
@@ -261,6 +267,8 @@ func walletFromBytes(data []byte, store wtypes.Store, encryptor wtypes.Encryptor
 		wallet, err = hd.DeserializeWallet(ctx, data, store, encryptor)
 	case distributedWallet:
 		wallet, err = distributed.DeserializeWallet(ctx, data, store, encryptor)
+	case keystoreWallet:
+		wallet, err = keystore.DeserializeWallet(ctx, data, store, encryptor)
 	default:
 		return nil, fmt.Errorf("unsupported wallet type %q", info.Type)
 	}
